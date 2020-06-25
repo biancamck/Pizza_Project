@@ -3,11 +3,33 @@ body {
     text-align:center;
 }
 
-.header {
+.jumbotron {
     text-align: center;
-    background: red;
-    border: 3px dotted black;
-    
+   margin: 2%;
+   background-color:red;
+   
+}
+
+img {
+    margin:2%;
+    width:auto;
+    height:auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    img {
+        margin: 2%;
+        max-width: 300px;
+    }
+}
+
+.card-deck {
+    margin:3%;
+}
+.card {
+    margin:2%;
 }
 
 h1 {
@@ -45,23 +67,6 @@ div {
     text-shadow: 2px 0 0 gray, -2px 0 0 gray, 0 2px 0 gray, 0 -2px 0 gray, 1px 1px gray, -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray;
 }
 
-.left {
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-
-.right {
-    width: 200px;
-    height: 200px;
-    float: right
-   }
-
-.center {
-	width:200px;
-	height:200px;
-	float:left;
-	}   
 
 #showText {
     width: 200px;
