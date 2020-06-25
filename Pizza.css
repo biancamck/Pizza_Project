@@ -1,10 +1,18 @@
 body {
     background-color: red;
+    text-align:center;
+}
+
+.header {
+    text-align: center;
+    background: red;
+    border: 3px dotted black;
+    
 }
 
 h1 {
     font-family: 'Coming Soon', Arial;
-    color: whitesmoke;
+    color: black;
     font-weight: bolder;
     font-style: oblique;
     text-align: center;
@@ -12,25 +20,21 @@ h1 {
 
 h3 {
     font-family: 'Rock Salt';
-    color: whitesmoke;
+    color: black;
 }
 
 div {
-    color: white;
+    color: black;
     font-family: cursive
 
 }
 
-#menuBG {
-    width: 500px;
-    height: 470px;
-    margin: 10px auto;
+.card {
+    box-shadow: 10px 10px 10px 5px black;
+    text-align: left;
 }
 
-#frmMenu {
-    width: 600px;
-    height: 200px;
-}
+
 
 #totalPrice {
     width: 200px;
@@ -73,8 +77,8 @@ div {
     height: 300px;
 }
 
-#btnOrder {
-    margin: 0px 0px 0px 200px;
-    width:100px;
-    height:40px;
+.btn {
+    margin:5%;
+    /*width:100px;*/
+    /*height:50px;*/
 }
